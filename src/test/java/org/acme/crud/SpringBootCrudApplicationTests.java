@@ -1,4 +1,4 @@
-package com.acme.crud.example;
+package org.acme.crud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
