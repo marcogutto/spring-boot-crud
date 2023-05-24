@@ -1,5 +1,0 @@
-com\acme\crud\example\repository\ProductRepository.class
-com\acme\crud\example\SpringBootCrudApplication.class
-com\acme\crud\example\entity\Product.class
-com\acme\crud\example\service\ProductService.class
-com\acme\crud\example\controller\ProductController.class
