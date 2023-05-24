@@ -1,10 +1,9 @@
-package com.acme.crud.example.service;
+package org.acme.crud.service;
 
+import org.acme.crud.entity.Product;
+import org.acme.crud.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.acme.crud.example.entity.Product;
-import com.acme.crud.example.repository.ProductRepository;
 
 import java.util.List;
 

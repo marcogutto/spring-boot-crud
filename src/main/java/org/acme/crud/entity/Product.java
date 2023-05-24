@@ -1,4 +1,4 @@
-package com.acme.crud.example.entity;
+package org.acme.crud.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
