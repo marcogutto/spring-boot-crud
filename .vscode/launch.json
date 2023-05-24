@@ -12,10 +12,10 @@
         },
         {
             "type": "java",
-            "name": "SpringBootCrudExample2Application",
+            "name": "SpringBootCrudApplication",
             "request": "launch",
-            "mainClass": "com.acme.crud.example.SpringBootCrudExample2Application",
-            "projectName": "spring-boot-crud-example-2"
+            "mainClass": "com.acme.crud.example.SpringBootCrudApplication",
+            "projectName": "spring-boot-crud"
         }
     ]
 }
