@@ -1,9 +1,10 @@
 package org.acme.crud;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+import io.quarkus.test.junit.QuarkusTest;
+
+@QuarkusTest
 class SpringBootCrudApplicationTests {
 
 	@Test

@@ -31,7 +31,7 @@ Change root privilegies
 ALTER USER 'root'@'%' IDENTIFIED BY 'root1234';
 ```
 
-Create a MySQL database with the name `springbootdb` use the `database/script.sql`;
+Create a MySQL database with the name `springbootdb`;
 
 Connect to the database
 ```
