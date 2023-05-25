@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.TableGenerator;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -17,7 +18,8 @@ import javax.persistence.Table;
 public class Product {
 
     @Id
-    @GeneratedValue
+	@TableGenerator(name="product_seq", table="sequence", initialValue = 0, allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.TABLE, generator="product_seq")
     private int id;
     private String name;
     private int quantity;
