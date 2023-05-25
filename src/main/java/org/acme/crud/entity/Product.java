@@ -15,7 +15,7 @@ import jakarta.persistence.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "PRODUCT_TBL")
+@Table(name = "product_tbl")
 public class Product {
 
     @Id
