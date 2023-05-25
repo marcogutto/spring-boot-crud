@@ -16,7 +16,7 @@ The project is created with Maven, so you just need to import it to your IDE and
 
 Start the docker database
 ```
-docker run --name mysqldb -e MYSQL_ROOT_PASSWORD=root1234 -p 3306:3306 -d mysql:8.0.33
+docker run --name mysqldb -e MYSQL_ROOT_PASSWORD=root123 -p 3306:3306 -d mysql:8.0.33
 ```
 
 Connect on database
@@ -26,21 +26,22 @@ docker exec -it CONTAINER_ID bash
 mysql -u root -p
 ```
 
-Change root privilegies
-```
-ALTER USER 'root'@'%' IDENTIFIED BY 'root1234';
-```
+Create a MySQL database with the name `springbootdb`.
 
-Create a MySQL database with the name `springbootdb`;
+```
+CREATE DATABASE springbootdb;
+```
 
 Connect to the database
 ```
-use springbootdb;
+USE springbootdb;
 ```
+
+Create tables with the script `database/script.sql`.
 
 Verify the table creation
 ```
-show tables;
+SHOW TABLES;
 ```
 
 ## Usage 
